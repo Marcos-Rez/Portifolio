@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #F5F5F5;
+    font-family: Raleway;
+    color: #464646;
+}
+
+.img-nome{
+    display: flex;
+    align-items: flex-start;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+
+.container_1{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 100px;
+}
+.cabecalhoPrincipal-nav, a {
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #464646;
+}
+.cont2{
+    display: flex;
+    width: auto;
+    
+}
+.cont2 > img{
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+.container_2 {
+    display: block;
+    height: 50px;
+    width: 800px;
+    margin-left: 100px;
+    margin-top: 120px;
+    justify-content: space-between;
+  
+}
+
+.container_2 > h1 {
+    width: 751px;
+    font-size: 52px;
+    text-align: justify;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.paragrafo_1{
+    height: 62px;
+    width: 751px;
+    padding: 35px 0;
+    text-align: justify;
+    font-size: 22px;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+.links-2 {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 20px;
+    
+}
+.links-2 > li > :nth-child(1) {
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 35px;
+}
+a:hover{
+    background: #2A7AE4;
+    color: #FFFFFF;
+    padding: 7px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+a:active{
+    color: #051f72;
+    
+}
+.container_3 {
+    width: auto;
+    height: 300px;
+    background: #abc3e4bb;
+    margin-top: 150px;
+}
+.container_3 > h2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+}
+.paragrafo_2-1{
+    width: auto;
+    height: 120px;
+    padding: 20px 0 -20px 0;
+    margin-bottom: 0;
+    margin-left: 100px;
+   
+
+    
+}
+
+.titulo-skills{
+    text-align: center;
+    padding-top: 32px;
+}
+.skills-container{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    
+}
+
+.skill{
+    width: 176px;
+    height: 174px;
+    border-top: 102;
+    background: #ffffff;
+    margin-left: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.skill:first-child{
+    margin-left: 0;
+}
+.skill > img, p{
+    margin: 0 0 16px 16px;
+}
+/*__________________*/
+.container_4{
+    background-color:  #abc3e4bb;
+    height: 581px;
+}
+.container_4 > h2 {
+    padding: 50px 0;
+    font-size: 32px;
+    text-align: center;
+
+}
+.container-formacao{/*Container que recebe formacao*/
+    height: 350px;
+    display: grid;
+    grid-template-columns: 368px 368px 368px;
+    grid-gap: 16px ;
+    justify-content: center;
+    align-items: center;
+}
+.formacao {
+    display: flex;
+    background: #ffffff;
+    align-items: center;
+    justify-content: center;
+    height: 286px;
+}
+.formacao > img {
+    width: 192px;
+    height: 130px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+#pri {
+    margin-top: 10px;
+}
+#seg {
+    margin-top: 10px;
+}
+#ter {
+    margin-top: 10px;
+}
+.titulos1{
+    font-size: 22px;
+}
+.titulos2{
+    font-size: 16px;
+}
+/*_____________________*/
+
+.container_5 {
+    display: flex;
+    align-items: center;
+}
+#Titulo-Experiência-Profissional{
+    width: auto;
+    text-align: center;
+    margin: 32px 0 32px 0;
+    font-size: 32px;
+}
+.img-jogo{
+    margin-left: 100px;
+}
+.opc-button{
+    width: 300px;
+    height: 52px;
+    margin-left: 20px;
+}
+.opc-button > h3 {
+    font-size: 22px;
+}
+.opc-button > p {
+    font-size: 16px;
+    margin: 10px 0 5px 0;
+}
+.button-rep{
+    width: 125px;
+    height: 51px;
+    background:  #FFFFFF;
+    color: #2A7AE4;
+    border: solid #2A7AE4 1px;
+  
+}
+#button-list {
+    margin-left: -50px;
+}
+.button-rep:hover{
+    background:  #2A7AE4;
+    color: #FFFFFF;
+}
+.button-demo{
+    width: 105px;
+    height: 51px;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    border: solid #2A7AE4 1px;
+    margin-left: 5px;
+}
+.button-demo:hover{
+    width: 105px;
+    height: 51px;
+    background: #FFFFFF;
+    color: #2A7AE4;
+    border: solid #2A7AE4 1px;
+    margin-left: 5px;
+}
+/*-----------------*/
+.container_6 {
+    width: auto;
+    display: flex;
+    margin-top: 32px;
+    margin-right: auto;
+    background: #abc3e4bb;
+}
+.container_6 > img {
+    margin-top: 70px;
+    margin-left: 100px;
+}
+#container-contato {
+    margin-top: 70px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+#contato {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+#contato > h2 {
+    margin-left: 28px;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+#contato > p {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    margin-left: 28px;
+
+}
+
+#form1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: auto;
+    height: 470px;
+    margin-top: 30px;
+    padding-left: 28px;
+    margin-bottom: 32px;   
+    
+}
+#form1 > input {
+    height: 56px;
+    border: 0;
+}
+#form1 > textarea {
+    height: 100px;
+    border: 0;
+}
+.button-enviar-mensagem{
+    width: 165px;
+    height: 51px;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    border: solid #2A7AE4 1px;
+}
+.button-enviar-mensagem:hover{
+    background:  #FFFFFF;
+    color: #2A7AE4;
+}
+#nome::placeholder{
+    text-align: center;
+    margin-left: 510px;
+    color: #92bbf1;
+}
+#email::placeholder{
+    text-align: center;
+    margin-left: 450px;
+    color: #92bbf1;
+}
+#assumto::placeholder{
+    text-align: center;
+    margin-left: 500px;
+    color: #92bbf1;
+}
+#mensagem::placeholder{
+    display: flex;
+    text-align: start;
+    padding: 40px 0 0 50px;
+    color: #92bbf1;
+   
+}
+.container_5-2{
+    width: auto;
+    height: auto;
+    margin-top: 53px;
+    display: flex;
+}
+
+.python{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    text-align: left;
+    margin: 80px 0 0 100px;
+    
+}
+
+.python > h3{
+    font-size: 22px;
+    padding-bottom: 32px;
+    width: 350px;
+    
+}
+#list-python {
+    list-style-type: disc;
+    margin-left: 100px;
+}
+#list-python > li {
+    margin-bottom: 5px;
+}
+.button-rep2{
+    margin-top: 25px;
+    margin-left: 80px;
+    width: 125px;
+    height: 51px;
+    background:  #FFFFFF;
+    color: #2A7AE4;
+    border: solid #2A7AE4 1px;
+  
+}
+.button-rep2:hover{
+    background:  #2A7AE4;
+    color: #FFFFFF;
+}
+
+#container_5-2 > img{
+    margin-right: 100px;
+    margin-left: 40px;
+    width: 650px;
+}
+footer{
+    text-align: center;
+    font-size: 16px;
+    background: #FFFFFF;
+    height: 102px;
+    width: auto;
+}
+#container-footer{
+    padding: 33px 0 0 0;
+}
+
