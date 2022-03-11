@@ -227,10 +227,12 @@ ul{
 .opc-button > p {
     font-size: 16px;
     margin: 10px 0 5px 0;
+    padding: 25px;
 }
 .button-rep{
     width: 125px;
     height: 51px;
+    padding: 12px;
     background:  #FFFFFF;
     color: #2A7AE4;
     border: solid #2A7AE4 1px;
@@ -246,10 +248,12 @@ ul{
 .button-demo{
     width: 105px;
     height: 51px;
+    padding: 12px;
     background: #2A7AE4;
     color: #FFFFFF;
     border: solid #2A7AE4 1px;
     margin-left: 5px;
+    
 }
 .button-demo:hover{
     width: 105px;
@@ -375,12 +379,21 @@ ul{
 }
 #list-python > li {
     margin-bottom: 5px;
+    
+}
+#list-python > li:last-child {
+    margin-bottom: 50px;
+    
+}
+#button-list {
+    height: 250px;
 }
 .button-rep2{
-    margin-top: 25px;
     margin-left: 80px;
+    margin-top: 1200px;
     width: 125px;
     height: 51px;
+    padding: 12px;
     background:  #FFFFFF;
     color: #2A7AE4;
     border: solid #2A7AE4 1px;
@@ -391,10 +404,18 @@ ul{
     color: #FFFFFF;
 }
 
+
 #container_5-2 > img{
     margin-right: 100px;
-    margin-left: 40px;
+    margin-left: 20px;
     width: 650px;
+}
+.button-rep {
+    margin-left: 0;
+}
+.button-rep2 {
+    margin-left: 100px;
+    margin-top: 0;
 }
 footer{
     text-align: center;
