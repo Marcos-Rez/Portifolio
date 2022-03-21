@@ -159,16 +159,16 @@
                     <p>preencha o formulário ao lado e entrarei em contacto o mais rápido possível.</p>
                 </div>
 
-                <form action="" id="form1">
-                    <input  type="text" name="nome" id="nome" placeholder="Nome" placeholder="Marcelo Cesar" required>
+                <form action="" id="form1" class="form" name="form">
+                    <input  type="text" name="nome" id="nome" placeholder="Nome" >
 
-                    <input type="email" id="email" placeholder="Seuemail@.com">
+                    <input type="email" name="email" id="email" placeholder="Seuemail@.com">
 
-                    <input type="text" id="assumto" placeholder="Assunto">
+                    <input type="text" id="assumto" name="assunto" placeholder="Assunto">
 
-                    <textarea name="" id="mensagem" cols="25" rows="5" placeholder="Mensagem"></textarea>
+                    <textarea name="mensagem" id="mensagem" cols="25" rows="5" placeholder="Mensagem"></textarea>
 
-                    <button class="button-enviar-mensagem">Enviar mensagem</button>
+                    <button class="button-enviar-mensagem" type="submit" id="submit">Enviar mensagem</button>
                 </form>
             </div>
         </section>
@@ -179,7 +179,7 @@
             <p>2022</p>
         </div>
     </footer>
-    <script src="./js/script.js">
+    <script src="./js/index.js">
 
     </script>
 </body>

@@ -313,11 +313,13 @@ ul{
 #form1 > input {
     height: 56px;
     border: 0;
+    
 }
 #form1 > textarea {
     height: 100px;
     border: 0;
 }
+
 .button-enviar-mensagem{
     width: 165px;
     height: 51px;
@@ -331,17 +333,17 @@ ul{
 }
 #nome::placeholder{
     text-align: center;
-    margin-left: 510px;
+    margin-left: 460px;
     color: #92bbf1;
 }
 #email::placeholder{
     text-align: center;
-    margin-left: 450px;
+    margin-left: 395px;
     color: #92bbf1;
 }
 #assumto::placeholder{
     text-align: center;
-    margin-left: 500px;
+    margin-left: 445px;
     color: #92bbf1;
 }
 #mensagem::placeholder{
